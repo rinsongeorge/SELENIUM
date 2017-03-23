@@ -34,7 +34,7 @@ public class MainClass {
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		System.out.println("Going to Home page ..................................................... : "+ new Date());
+		System.out.println("Going to Home page ASASAS..................................................... : "+ new Date());
 		
 		driver.navigate().to("https://www.ultimatix.net/");
 		
