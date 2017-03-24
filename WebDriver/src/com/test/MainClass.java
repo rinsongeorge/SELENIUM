@@ -24,6 +24,8 @@ public class MainClass {
 	
 	public static void main(String[] args) throws InterruptedException, ParseException, FileNotFoundException {
 		
+		// GIT Commit
+		
 		HashMap<String, String> testData = getTestDataFromCSV(args);
 		
 		String dayList = testData.get("days").toString();
@@ -34,7 +36,7 @@ public class MainClass {
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		System.out.println("Going to Home page ASASAS..................................................... : "+ new Date());
+		System.out.println("Going to Home page ..................................................... : "+ new Date());
 		
 		driver.navigate().to("https://www.ultimatix.net/");
 		
